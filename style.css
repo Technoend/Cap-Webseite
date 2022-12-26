@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #002233;
+}
+
+
+
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #093146;
+
+}
+
+ul {
+    margin-left: 60px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+ul li a:hover {
+    color: wheat;
+}
+
+
+
+
+.about {
+    display: block;
+    margin-top: 20px;
+    padding: 0 60px;
+    text-decoration: none;
+    float:left;
+
+
+}
+
+.About-Ice {
+    width: 30%;
+    margin-left: 60px;
+    float:left;
+    border-radius:10px;
+    
+}
+
+
+
+
+
+.Hobbies {
+    margin-top:20px;
+    margin-left: 60px;
+    display: grid;
+    align-content: center;
+    float:left;
+    
+}
+
+.Projekte {
+    margin-top:20px;
+    display: grid;
+    align-content: center;
+    margin-left: 10%;
+    float:left;
+
+}
+
+
+
+
+.Capexp{
+    margin-top:20px;
+    margin-left: 60px;
+}
