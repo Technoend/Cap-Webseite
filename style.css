@@ -108,8 +108,19 @@ ul li a:hover {
     color: #002233;
 }
 
+.warning1 {
+    margin-top: 90%;
+    color: black;
+}
+
 @media (max-width: 500px) {
     .warning {
+        display: block;
+        background-color: yellow;
+        color: black;
+        text-align: center;
+    }
+    .warning1 {
         display: block;
         background-color: yellow;
         color: black;
@@ -133,3 +144,11 @@ ul li a:hover {
     width: 30%;
     border-radius: 10px;
 }
+
+.cyb{
+    background-color: black;
+    background-image: url("img/Bild1.png");
+    background-repeat: no-repeat;
+    background-size: 75%
+}
+
