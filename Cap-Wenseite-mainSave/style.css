@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #002233;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #093146;
+
+}
+
+ul {
+    margin-left: 60px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+ul li a:hover {
+    color: wheat;
+}
+
+
+
+
+.about {
+    display: block;
+    margin-top: 20px;
+    padding: 0 60px;
+    text-decoration: none;
+    float: left;
+
+
+}
+
+.About-Ice {
+    width: 30%;
+    margin-left: 60px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+
+
+.Hobbies {
+    margin-top: 20px;
+    margin-left: 60px;
+    display: grid;
+    align-content: center;
+    float: left;
+
+}
+
+.Projekte {
+    margin-top: 20px;
+    display: grid;
+    align-content: center;
+    margin-left: 10%;
+    float: left;
+
+}
+
+.Design {
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.Capexp {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.warning {
+    color: #002233;
+}
+
+.warning1 {
+    margin-top: 90%;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .warning {
+        display: block;
+        background-color: yellow;
+        color: black;
+        text-align: center;
+    }
+    .warning1 {
+        display: block;
+        background-color: yellow;
+        color: black;
+        text-align: center;
+    }
+}
+
+.Cyber {
+    height: 70px;
+    margin-top: 20px;
+    float: right;
+}
+
+.open {
+    background-color: #002233
+}
+
+.IndexPhoto {
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.cyb{
+    background-color: black;
+    background-image: url("img/Bild1.png");
+    background-repeat: no-repeat;
+    background-size: 75%
+}
+
