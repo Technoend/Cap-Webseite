@@ -113,7 +113,7 @@ ul li a:hover {
     color: black;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 900px) {
     .warning {
         display: block;
         background-color: yellow;
